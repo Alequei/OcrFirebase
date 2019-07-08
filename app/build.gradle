@@ -27,8 +27,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     // Firebase and ML Kit dependencies
-
     implementation 'com.google.firebase:firebase-ml-vision:20.0.0'
+    //Lector de Barras
+    implementation 'me.dm7.barcodescanner:zxing:1.9.13'
 
 }
 
